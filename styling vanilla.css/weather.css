@@ -1,0 +1,9 @@
+body {
+  background-color: light pink;
+}
+.vannila-app {
+  background-color: yellowgreen;
+  max-width: 800px;
+  margin: 30px auto;
+  border-radius: 15px;
+}
