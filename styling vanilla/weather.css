@@ -13,21 +13,45 @@ header {
   border-bottom: 5px;
   padding: 20px 0 20px 0;
 }
+main {
+  border-bottom: 5px;
+  padding: 30px;
+}
 .search-form-input {
-  border-radius: 15px;
+  border-radius: 10px;
   color: red;
   font-size: 15px;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 30px;
   margin-top: 20px;
 }
 .search-form-button {
-  border-radius: 15px;
+  border-radius: 10px;
   color: red;
   font-size: 15px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   margin-top: 20px;
+}
+.application-data {
+  display: flex;
+  justify-content: space-between;
+}
+.application-data strong {
+  color: rgb(255, 215, 192);
 }
 footer {
   border-top: 5px;
   padding: 30px 0 20px 0;
+}
+.temperature-details {
+  display: flex;
+}
+.temperature-emoji {
+  font-size: 33px;
+}
+.temperature-degree {
+  font-size: 30px;
+  font-weight: bold;
+}
+.temperature-metrics {
+  font-size: 30px;
 }
