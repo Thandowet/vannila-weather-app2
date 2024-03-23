@@ -1,8 +1,9 @@
 body {
   background-color: light pink;
+  font-family: "Oswald", sans-serif;
 }
 .vannila-app {
-  background-color: yellowgreen;
+  background-color: rgb(159, 205, 50);
   max-width: 800px;
   margin: 30px auto;
   border-radius: 15px;
