@@ -19,15 +19,15 @@
 
         <header>
             <form class="search-form">
-                <input type="search" placeholder="enter city" required class="search-form-input" />
-                <input type="submit" value="search" class="search-form-button" />
+                <input type="search" placeholder="enter city" required class="search-form-input" id="search-form-input"/>
+                <input type="submit" value="search" class="search-form-button" id="search-form-button"/>
             </form>
         </header>
 
         <main>
             <div class="application-data">
                 <div>
-                    <h1 class="application-city">Johannesburg</h1>
+                    <h1 class="application-city" id="application-city">Johannesburg</h1>
                     <p class="application-deatails">Friday 14:30, Sunny <br> Humidity:<strong style
                             color="pink">30%</strong>, Wind
                         <strong>1.5km/h</strong>
@@ -46,6 +46,7 @@
             <a href="https://app.netlify.com/sites/noluthando/deploys"> netlify</a>
         </footer>
     </div>
+    <script src="java/weather.js"></script>
 </body>
 
 </html>
