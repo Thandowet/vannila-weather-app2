@@ -17,25 +17,25 @@ main {
   border-bottom: 5px;
   padding: 30px;
 }
-.search-form-input {
+.search-input {
   border-radius: 10px;
   color: red;
   font-size: 15px;
   padding: 10px 20px 10px 30px;
   margin-top: 20px;
 }
-.search-form-button {
+.search-button {
   border-radius: 10px;
   color: red;
   font-size: 15px;
   padding: 10px 40px;
   margin-top: 20px;
 }
-.application-data {
+.current-weather {
   display: flex;
   justify-content: space-between;
 }
-.application-data strong {
+.current-weather strong {
   color: rgb(255, 215, 192);
 }
 footer {
@@ -46,12 +46,12 @@ footer {
   display: flex;
 }
 .temperature-emoji {
-  font-size: 33px;
+  font-size: 40px;
 }
 .temperature-degree {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 .temperature-metrics {
-  font-size: 30px;
+  font-size: 35px;
 }

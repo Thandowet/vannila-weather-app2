@@ -19,21 +19,22 @@
     <div class="weather-application">
 
         <header>
-            <form class="search-form">
-                <input type="search" placeholder="enter city" required id="search-form-input"
-                    class="search-form-input" />
-                <input type="submit" value="search" class="search-form-button" id="search-form-button" />
+            <form id="search-form">
+                <input type="search" placeholder="enter city" required id="search-input" class="search-input" />
+                <input type="submit" value="search" class="search-button" id="search-button" />
             </form>
         </header>
 
         <main>
-            <div class="application-data">
+            <div class="current-weather">
                 <div>
-                    <h1 class="application-city" id="current-city">Johannesburg</h1>
-                    <p class="application-deatails" id="application-deatails">Friday 14:30, Sunny <br> Humidity:<strong
-                            style color="pink">30%</strong>, Wind
+                    <h1 class="current-city" id="current-city">Johannesburg</h1>
+                    <p class="current-date" id="current-date">Friday 14:30 </p>
+                    <p>
+                        Humidity:<strong style color="pink">30%</strong>, Wind
                         <strong>1.5km/h</strong>
                     </p>
+                
                 </div>
                 <div class="temperature-details">
                     <span class="temperature-emoji">☀️</span>
@@ -50,6 +51,7 @@
     </div>
 
 </body>
-<script src="java/weather.js"></script>
+
+<script src="src/index.js"></script>
 
 </html>
