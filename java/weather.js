@@ -42,4 +42,3 @@ let applicationDetailsElement = document.querySelector("#application-details");
 let applicationDetails = new Date();
 
 applicationDetailsElement.innerHTML = formatDate(applicationDetails);
-
