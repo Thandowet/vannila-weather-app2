@@ -45,12 +45,15 @@ footer {
 .temperature-details {
   display: flex;
 }
-.temperature-emoji {
-  font-size: 40px;
+img {
+  width: size 70px;
+  height: 100px;
+  line-height: 100px;
 }
 .temperature-degree {
   font-size: 40px;
   font-weight: bold;
+  
 }
 .temperature-metrics {
   font-size: 35px;

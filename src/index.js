@@ -40,6 +40,10 @@ function formatDate(date) {
 
   let formattedDay = days[day];
   return `${formattedDay} ${hours}:${minutes}`;
+
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
 }
 
 let searchForm = document.querySelector("#search-form");
