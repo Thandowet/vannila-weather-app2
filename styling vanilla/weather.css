@@ -51,14 +51,10 @@ img {
   line-height: 100px;
 }
 .temperature-degree {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
 }
 .temperature-metrics {
   font-size: 35px;
 }
-.weather-forecast {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: left;
-}
+

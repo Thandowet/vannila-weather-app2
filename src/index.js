@@ -48,6 +48,29 @@ function formatDate(date) {
   }
 }
 
+function displayForecast() {
+  let days = ["Tue", "Wed", "Thur", "Fri", "Sat", "Sun", "Mon"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+<div class="weather-forecast-day">
+    <div class="weather-forecast-date">${day}</div>
+    <div class="weather-forecast-icon">🌥️</div>
+    <div class="weather-forecast-temperatures">
+    <div class="weather-forecast-temperature"><strong>20°</strong></div>
+    <div class="weather-forecast-temperature">15°</div>
+</div>
+</div>
+`;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
+
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", search);
 
