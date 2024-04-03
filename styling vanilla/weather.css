@@ -57,4 +57,9 @@ img {
 .temperature-metrics {
   font-size: 35px;
 }
+.weather-forecast-day {
+  display: flex;
+  justify-content: space-around;
+  
 
+}
