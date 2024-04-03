@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(0, 255, 213);
+  background-color:yellow;
   font-family: "Oswald", sans-serif;
 }
 .weather-application {
-  background-color: rgb(159, 205, 50);
+  background-color: pink;
   max-width: 800px;
   margin: 30px auto;
   border-radius: 15px;
@@ -36,7 +36,7 @@ main {
   justify-content: space-between;
 }
 .current-weather strong {
-  color: rgb(255, 215, 192);
+  color: green;
 }
 footer {
   border-top: 5px;
@@ -47,8 +47,7 @@ footer {
 }
 img {
   width: size 70px;
-  height: 100px;
-  line-height: 100px;
+  line-height: 70px;
 }
 .temperature-degree {
   font-size: 50px;
